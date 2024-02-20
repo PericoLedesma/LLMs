@@ -4,7 +4,7 @@ from langchain_community.llms import HuggingFaceHub
 from langchain.chains import LLMChain
 
 
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+
 HUGGINGFACEHUB_API_TOKEN = os.environ.get('HUGGINGFACEHUB_API_TOKEN')
 
 '''
